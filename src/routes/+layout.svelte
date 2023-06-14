@@ -11,7 +11,7 @@
 	$: pathname = $page?.url?.pathname;
 
 	$: isLarge = pathname.includes('/shop/vintage-electric');
-	$: isFullWidth = pathname.includes('/blog/full-albums-worth-listening-to');
+	$: isFullWidth = pathname.includes('/map');
 
 	$: isProduct = pathname.includes('/shop/');
 
@@ -22,7 +22,7 @@
 
 <!-- <Nav /> -->
 
-<main class:large={isLarge} class:full-width={isFullWidth}>
+<main class:full-width={isFullWidth}>
 	<slot />
 </main>
 
@@ -35,6 +35,7 @@
 		padding: 0 0 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
+		display: flex;
 	}
 
 	.large {

@@ -5,7 +5,6 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	background-color: #f1d4b0a4;
-	background-image: url('/rice-paper-2.png');
 }
 
 * {
@@ -43,7 +42,7 @@ table {
 }
 h1 {
 	font-size: 2em;
-	font-family: Zina;
+	font-family: Cabin Sketch;
 }
 
 h2 {

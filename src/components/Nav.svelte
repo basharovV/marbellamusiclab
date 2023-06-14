@@ -7,101 +7,45 @@
 </script>
 
 <nav>
-	{#if pathname !== '/music'}
-		<a class="logo" href="/"><img alt="Logo" src="/logo.svg" /></a>
-	{/if}
-	<div>
-		<ul>
-			<li>
-				<a aria-current={pathname === '/' ? 'page' : undefined} href="/">home</a>
-			</li>
-			<li>
-				<a aria-current={pathname?.includes('/dev') ? 'page' : undefined} href="/dev">gigs</a>
-			</li>
+	<menu>
+		<item>
+			<a aria-current={pathname === '/' ? 'page' : undefined} href="/">home</a>
+		</item>
+		<item>
+			<a aria-current={pathname?.includes('/events') ? 'page' : undefined} href="/events">eventos</a
+			>
+		</item>
 
-			<li>
-				<a
-					rel="prefetch"
-					aria-current={pathname?.includes('/blog') ? 'page' : undefined}
-					href="/blog">updates</a
-				>
-			</li>
+		<item>
+			<a aria-current={pathname?.includes('/map') ? 'page' : undefined} href="/map" rel="prefetch"
+				>mapa</a
+			>
+		</item>
 
-			<li>
-				<a
-					aria-current={pathname?.includes('/music') ? 'page' : undefined}
-					href="/music"
-					rel="prefetch">music</a
-				>
-			</li>
-
-			<li>
-				<a
-					rel="prefetch"
-					aria-current={pathname?.includes('/shop') ? 'page' : undefined}
-					href="/shop">shop</a
-				>
-			</li>
-		</ul>
-	</div>
+		<item>
+			<a href="/mailto:marbellamusiclab@@gmail.com">contacto</a>
+		</item>
+	</menu>
 </nav>
 
 <style lang="scss">
-	:global(body) {
-		transition: background-color cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.3s;
-		// transition: color cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.3s;
-	}
-
-	.theme-toggle {
-		opacity: 0.7;
-		svg {
-			&:hover {
-				transform: scale(1.2);
-				cursor: pointer;
-			}
-		}
-	}
+	
 	nav {
-		/* border-bottom: 1px solid rgba(74, 74, 74, 0.1); */
-		font-weight: 300;
-		padding: 0;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.language {
 		display: flex;
 		justify-content: center;
-		position: relative;
-		> div {
-			max-width: 400px;
-			width: 100%;
-			display: inline-flex;
-		}
-		@media only screen and (max-width: 500px) {
-			border-bottom: 1px solid rgba(74, 74, 74, 0.1);
-		}
 	}
 
-	ul {
-		margin: 0;
-		padding: 0;
-		display: flex;
+	menu {
 		justify-content: center;
-		justify-content: space-around;
-		width: 100%;
-		@media only screen and (max-width: 522px) {
-			/* min-width: 0px;
-      width: 100%; */
-		}
-	}
-
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	li {
-		display: block;
-		float: left;
-		position: relative;
+		font-size: large;
+		display: flex;
+		gap: 2em;
 	}
 
 	[aria-current] {
@@ -135,15 +79,4 @@
 		filter: invert(1);
 	}
 
-	.logo {
-		position: absolute;
-		top: 0;
-		left: 10px;
-		width: 30px;
-		bottom: 0;
-
-		@media only screen and (max-width: 500px) {
-			display: none;
-		}
-	}
 </style>

@@ -11,24 +11,6 @@ dayjs.extend(customParseFormat);
 import shows from '../data/shows.json';
 import YOUTUBE_VIDEOS from '../data/videos.json';
 
-// TODO remove if not gonna be used? All data is local until embed is loaded
-async function getYouTubeTitle(fetch, videoId) {
-	return await fetch(
-		`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&feature=emb_logo&format=json`
-	)
-		.then((response) => response.json())
-		.then((response) => {
-			console.log('response', response);
-			if (response) {
-				return {
-					title: response.title,
-					thumbnail: `/thumbnails/${videoId}.webp`
-				};
-				// thumbnail = response.thumbnail_url.replace('hqdefault', 'maxresdefault');
-			}
-		});
-}
-
 async function getAllYouTubeVideos(fetch) {
 	return await YOUTUBE_VIDEOS.reduce(async (obj, current) => {
 		console.log('obj', obj);
@@ -54,29 +36,8 @@ export const load: LayoutLoad = async ({ fetch, url }) => {
 	dayjs.locale(initLocale);
 
 	await loadTranslations(initLocale, pathname); // keep this just before the `return`
-
-	const transformedShows = shows.shows.map((s) => ({
-		...s,
-		date: dayjs(s.date, 'DD-MM-YYYY').format('ddd, D MMM YYYY'),
-		passed: dayjs().isAfter(dayjs(s.date, 'DD-MM-YYYY'))
-	}));
-
-	console.log('shows', transformedShows);
-	let videos = {};
-
-	try {
-		videos = await getAllYouTubeVideos(fetch);
-		console.log('videos', videos);
-	} catch (err) {
-		console.error(err);
-		videos = YOUTUBE_VIDEOS.reduce((obj, current) => {
-			obj[current.id] = {};
-			return obj;
-		}, YOUTUBE_VIDEOS);
-	}
+	
 	return {
-		shows: transformedShows,
-		today: dayjs().format(initLocale === 'es' ? 'dddd, D [de] MMMM YYYY' : 'dddd, Do MMMM YYYY'),
-		videos
+		// Data here
 	};
 };

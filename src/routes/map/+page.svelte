@@ -391,12 +391,12 @@
 							showExplainer = false;
 						}}>OK</button
 					>
-					<small class="signed"><a href="/">- Uncle John's Band</a></small>
+					<small class="signed"><a href="/">- Marbella Music Lab</a></small>
 				</div>
 				<br />
 				<p style="border: 1px solid white;padding: 0.5em;">
 					Conoces un sitio que debería estar en el mapa? Manda un email a <a
-						href="mailto:contact@elpatorecords.com">contact@elpatorecords.com</a
+						href="mailto:marbellamusiclab@@gmail.com">marbellamusiclab@gmail.com</a
 					>
 				</p>
 			{:else}
@@ -423,6 +423,7 @@
 <style lang="scss">
 	.container {
 		position: relative;
+		width: 100%;
 
 		.toolbar {
 			position: absolute;
