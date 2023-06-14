@@ -1,0 +1,33 @@
+{
+	"tagline": "since 2022",
+    "subtitle": "introduce themselves through a digital medium",
+	"shows": {
+		"title": "shows",
+		"date": "date",
+		"location": "location",
+		"tickets": "tickets"
+	},
+	"booking": "booking",
+	"band": {
+		"title": "the band:",
+		"guitar": "guitar",
+		"vocal": "vocal",
+		"bass": "bass",
+		"keys": "keys",
+		"drums": "drums"
+	},
+	"bio": {
+		"title": "Full concert from Estudios Tarántula now available",
+		"body": "featuring the songs: \"All Around My Hometown\", \"Day After Day\", \"Dejavu\", \"Lady In Paint\", \"Little Things We Do\", \"Calypso\" and \"Walking In Ragtime\"",
+		"small": "(+ covers of Going Down The Road Feeling Bad, Fire On The Mountain)"
+	},
+	"elpato": {
+		"link": "more on our YouTube channel",
+		"description": "rehearsals, jams, outtakes from the studio"
+	},
+	"rehearsals": "rehearsals + jams",
+	"map": {
+		"title": "Uncle John's Map 🗺",
+		"description": "We created this interactive map for local bands and music goers. Concert venues, rehearsal and recording spaces, jam sessions, restaurants and bars with live music around the Costa del Sol"
+	}
+}

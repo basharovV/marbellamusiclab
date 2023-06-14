@@ -1,0 +1,33 @@
+{
+	"tagline": "desde 2022",
+	"subtitle": "se introducen a traves del medio digital",
+	"shows": {
+		"title": "conciertos",
+		"date": "fecha",
+		"location": "donde",
+		"tickets": "entradas"
+	},
+	"booking": "booking",
+	"band": {
+		"title": "el grupo:",
+		"guitar": "guitarra",
+		"vocal": "vocal",
+		"bass": "bajo",
+		"keys": "teclados",
+		"drums": "batería"
+	},
+	"bio": {
+		"title": "Concierto de Estudios Tarántula ya disponible",
+		"body": "presentando las canciones: \"All Around My Hometown\", \"Day After Day\", \"Dejavu\", \"Lady In Paint\", \"Little Things We Do\", \"Calypso\" y \"Walking In Ragtime\"",
+		"small": "(+ versiones de Going Down The Road Feeling Bad, Fire On The Mountain)"
+	},
+	"elpato": {
+		"link": "más videos en nuestro canal YouTube",
+		"description": "ensayos, jams, grabaciones del estudio"
+	},
+	"rehearsals": "ensayos + jams",
+	"map": {
+		"title": "Uncle John's Map 🗺",
+		"description": "Hemos creado un mápa interactivo de la escena musical en la Costa del Sol, para bandas locales y amantes de la música en directo. Salas de concierto, locales de ensayo y grabación, jam sessions, bares y restaurantes con bandas en directo."
+	}
+}

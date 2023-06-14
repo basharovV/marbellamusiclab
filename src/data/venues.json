@@ -1,0 +1,650 @@
+[
+	{
+		"name": "Louie Louie",
+		"id": "louie",
+		"description": "Sala de conciertos",
+		"category": "venue",
+		"pos": {
+			"lat": 36.41713965359099,
+			"lng": -5.156279948539152
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://louielouierockbar.com"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/louielouierockestepona/"
+			}
+		]
+	},
+	{
+		"name": "Huber Art & Food",
+		"id": "huber",
+		"description": "Galeria de arte, gastro-bar contemporáneo con música y artistas de todo tipo",
+		"category": "restaurant",
+		"pos": {
+			"lat": 36.4270313663247,
+			"lng": -5.144921530044606
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "http://elhuber.es/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/huberartandfood"
+			}
+		]
+	},
+	{
+		"name": "Estudio Padrón",
+		"id": "padron",
+		"category": "studio",
+		"jam": true,
+		"description": "Estudio con salas de ensayo y conciertos en streaming. Jam sessions cada dos semanas.",
+		"pos": {
+			"lat": 36.44007617144079,
+			"lng": -5.104830092748455
+		},
+
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/estudiopadronn/"
+			},
+			{
+				"type": "YouTube",
+				"url": "https://www.youtube.com/@estudiopadron6406"
+			}
+		]
+	},
+	{
+		"name": "Cat's Kitchen (La Catarina)",
+		"id": "cats",
+		"description": "Restaurante y cervecería con escenario. Jams de rock los viernes, de jazz los sábados.",
+		"genre": "Rock, folk",
+		"jam": true,
+		"category": "restaurant",
+		"pos": {
+			"lat": 36.45679578972755,
+			"lng": -5.0605926025490096
+		},
+
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/catskitchenestepona/"
+			}
+		]
+	},
+	{
+		"name": "Sonora Beach",
+		"id": "sonora",
+		"description": "Chiringuito con buena música",
+		"category": "restaurant",
+		"season": "summer",
+		"pos": {
+			"lat": 36.4517806748372,
+			"lng": -5.0774063852903435
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/sonorabeach/"
+			}
+		]
+	},
+	{
+		"name": "House of Flow",
+		"id": "flow",
+		"description": "Cafe, restaurante, lounge bar y espacio de eventos",
+		"category": "restaurant",
+		"season": "summer",
+		"pos": {
+			"lat": 36.523612938385895,
+			"lng": -5.045400890799582
+		}
+	},
+	{
+		"name": "Brödernas",
+		"id": "brodernas",
+		"description": "Restaurante de hamburguesas con eventos de música en directo y jam sessions",
+		"category": "restaurant",
+		"jam": true,
+		"pos": {
+			"lat": 36.488993941348625, 
+			"lng": -4.959797939135885
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "http://www.brodernas-marbella.com/"
+			},
+			{
+				"type": "Instagram",
+				"url": "http://www.brodernas-marbella.com/"
+			}
+		]
+	},
+	{
+		"name": "La Sala Banús",
+		"id": "lasala",
+		"description": "Restaurante, bar con música en directo 7 dias a la semana, conciertos de tributo.",
+		"category": "restaurant",
+		"jam": false,
+		"pos": {
+			"lat": 36.490322067274505,
+			"lng": -4.956439763934115
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "http://www.lasalabanus.com/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/lasalabanus"
+			},
+			{
+				"type": "Instagram",
+				"url": "http://www.instagram.com/lasalabanus"
+			}
+		]
+	},
+	{
+		"name": "Sala Premiere",
+		"id": "premier",
+		"description": "Sala de conciertos",
+		"category": "venue",
+		"pos": {
+			"lat": 36.510823187089635,
+			"lng": -4.887329016797941
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/premiereclubmarbella/"
+			}
+		]
+	},
+	{
+		"name": "The Cable Studios",
+		"id": "cable",
+		"description": "Estudio de grabacion",
+		"category": "studio",
+		"season": "all",
+		"pos": {
+			"lat": 36.510425039075805,
+			"lng": -4.869904275493997
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://thecablestudios.com/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/thecablestudios/"
+			}
+		]
+	},
+	{
+		"name": "The Farm",
+		"id": "farm",
+		"description": "Restaurante con eventos acusticos.",
+		"category": "restaurant",
+		"season": "summer",
+		"pos": {
+			"lat": 36.50985257058753,
+			"lng": -4.882639296723966
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://thefarm-marbella.com/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/thefarmmarbella/?hl=en"
+			}
+		]
+	},
+	{
+		"name": "Ojeando Festival",
+		"id": "ojeando",
+		"category": "festival",
+		"description": "Festival de música independiente",
+		"genre": "Rock",
+		"date": "Julio",
+		"pos": {
+			"lat": 36.565110380283315,
+			"lng": -4.856493394302047
+		},
+
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://ojeandofestival.com/"
+			}
+		]
+	},
+	{
+		"name": "Estudios Tarantula",
+		"id": "tarantula",
+		"description": "Estudio de grabación con local de ensayo y conciertos en línea",
+		"category": "studio",
+		"pos": {
+			"lat": 36.511376150058176,
+			"lng": -4.8902843176473105
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/tarantulaestudios"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/estudiostarantula/"
+			}
+		]
+	},
+	{
+		"name": "Fhersound Music Studios",
+		"id": "fhersound",
+		"description": "Estudio de grabación con equipo de alta calidad en pleno centro de Marbella",
+		"category": "studio",
+		"pos": {
+			"lat": 36.51425958305767, 
+			"lng": -4.881007908569272
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://fhersound-music-studios.negocio.site"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/fhersound_studios/"
+			}
+		]
+	},
+	{
+		"name": "Bonnet Bar Café",
+		"id": "bonnet",
+		"description": "Rock bar",
+		"category": "bar",
+		"pos": {
+			"lat": 36.54270467545071,
+			"lng": -4.617291854677415
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/bonnetfuengirola/"
+			}
+		]
+	},
+	{
+		"name": "Speakeasy Jazz Club & Cocktails",
+		"id": "speakeasy",
+		"description": "Jazz club y coctelería en Fuengirola",
+		"category": "bar",
+		"jam": false,
+		"pos": {
+			"lat": 36.5406589784493, 
+			"lng": -4.621609752289451
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/speakeasyjazzandcocktails/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/SPEAKEASYJAZZANDCOCKTAILS/"
+			}
+		]
+	},
+	{
+		"name": "Pogs Irish Pub",
+		"id": "pogs",
+		"description": "Pub irlandés con música en directo",
+		"genre": "Rock, folk",
+		"category": "bar",
+		"pos": {
+			"lat": 36.543300192296115,
+			"lng": -4.619981258337106
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/pogsfuengirola/"
+			}
+		]
+	},
+	{
+		"name": "Clarence Jazz Club",
+		"id": "clarence",
+		"description": "Club de jazz puro y duro, con artistas locales, nacionales e internacionales. Jam sessions una vez a la semana.",
+		"genre": "jazz",
+		"category": "venue",
+		"jam": true,
+		"pos": {
+			"lat": 36.62120088781685,
+			"lng": -4.497376960113199
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://www.clarencejazzclub.com/wp/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/clarencejazzclub/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/clarencejazzclub"
+			}
+		]
+	},
+	{
+		"name": "Vinilo Cafe Pub",
+		"id": "vinilo",
+		"description": "Rock bar",
+		"category": "bar",
+		"jam": false,
+		"pos": {
+			"lat": 36.60659208098794,
+			"lng": -4.533225998779938
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/vinilo_cafepub/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/vinilocafepubbenalmadena"
+			}
+		]
+	},
+	{
+		"name": "El Bar de Las Motos",
+		"id": "motos",
+		"description": "Rock bar con ambiente motero 🤘 Blues, soul, rockabilly, rock and roll",
+		"category": "bar",
+		"jam": false,
+		"pos": {
+			"lat": 36.59921573437085,
+			"lng": -4.539920735554438
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/bardelasmotos/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/bardelasmotos"
+			}
+		]
+	},
+	{
+		"name": "CSA Las Vegas / Sopa Jervía",
+		"id": "csa",
+		"description": "Colectivo hazlo-tú-mismx situado en Málaga. Música, arte y cultura independiente.",
+		"category": "venue",
+		"season": "all",
+		"pos": {
+			"lat": 36.71008471027362,
+			"lng": -4.48191402658483
+		},
+		"links": [
+			{
+				"type": "Bandcamp",
+				"url": "https://csalasvegas.bandcamp.com/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/sopajervia/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/sopajervia"
+			}
+		]
+	},
+	{
+		"name": "La Polivalente",
+		"id": "polivalente",
+		"description": "Espacio cultural abierto a todo tipo de música",
+		"category": "venue",
+		"jam": true,
+		"pos": {
+			"lat": 36.72620676307488,
+			"lng": -4.4150486043558
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://www.lapolivalente.com/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/lapolivalentelagunillas/"
+			}
+		]
+	},
+	{
+		"name": "Velvet Club Málaga",
+		"id": "velvet",
+		"description": "Sala de conciertos",
+		"category": "venue",
+		"jam": false,
+		"pos": {
+			"lat": 36.722919966742644,
+			"lng":  -4.419982645356255
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "http://www.velvetclub.es/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/velvetclubmalaga/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/velvetclubmalaga"
+			}
+		]
+	},
+	{
+		"name": "Bonvivant Beer",
+		"id": "bonvivant",
+		"description": "Craft beer, cervecera artesana de Málaga 🍺",
+		"category": "bar",
+		"jam": false,
+		"pos": {
+			"lat": 36.69300902059121,
+			"lng": -4.471851374726976
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://bonvivant.beer/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/bonvivantbeer/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/cervezasbonvivant/"
+			}
+		]
+	},
+	{
+		"name": "Soho Sessions",
+		"id": "sohosessions",
+		"description": "Estudio de grabación. Servicios de grabación, mezcla y mastering profesional.",
+		"category": "studio",
+		"jam": false,
+		"pos": {
+			"lat": 36.71691188483551,
+			"lng": -4.422289161236116
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://sohosessionsmalaga.com/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/soho.sessions/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/sohosessionsmalaga"
+			},
+			{
+				"type": "Teléfono",
+				"phone": "+34 695 15 22 01"
+			}
+		]
+	},
+	{
+		"name": "Moby Dick Recording Studio",
+		"id": "mobydick",
+		"description": "Estudio de grabación con equipo analógico en pleno centro de Málaga. Grabación, mezcla y mastering profesional.",
+		"category": "studio",
+		"jam": false,
+		"pos": {
+			"lat": 36.716929085286246,
+			"lng": -4.42227843239964
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://mobydickestudio.com/el-estudio/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/mobydickestudio/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/Moby-Dick-Recording-Studio-156523891051910/"
+			},
+			{
+				"type": "Spotify",
+				"url": "https://open.spotify.com/playlist/67pPaEMkjwLC2eFLJ2857W?si=nbWpODkDSemOCwuJL5-kRg"
+			},
+			{
+				"type": "Teléfono",
+				"phone": "+34 666 70 48 71"
+			}
+		]
+	},
+	{
+		"name": "La Fábrica",
+		"id": "lafabrica",
+		"description": "Cervecería artesanal Cruzcampo y espacio cultural con música en directo casi todos los días 🍺",
+		"category": "bar",
+		"jam": false,
+		"pos": {
+			"lat": 36.71647248042314,
+			"lng": -4.423340190072556
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://lafabricadecerveza.com/conciertos-en-malaga/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/Lafabricamalaga"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/lafabricamalaga"
+			}
+		]
+	},
+	{
+		"name": "ZZ Pub",
+		"id": "zzpub",
+		"description": "Bar con música en vivo todas las noches, desde 1991. Rock, soul, blues, jazz, funk 🎸",
+		"category": "bar",
+		"jam": false,
+		"pos": {
+			"lat": 36.724086004902155,
+			"lng":  -4.4211153566190475
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "http://www.zzpub.es/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/zzpub/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/ZZPUB/"
+			}
+		]
+	},
+	{
+		"name": "ELCAMM",
+		"id": "elcamm",
+		"description": "El Centro de Artes y Música Moderna de Málaga. Escuela de jazz y centro cultural, con una sala para conciertos",
+		"category": "school",
+		"jam": true,
+		"pos": {
+			"lat": 36.70986609942728, 
+			"lng": -4.467365383592686
+		},
+		"links": [
+			{
+				"type": "Web",
+				"url": "https://www.elcamm.es/"
+			},
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/elcamm_malaga/"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/ELCAMMmalaga/"
+			}
+		]
+	},
+	{
+		"name": "Chiringuito La Inopia",
+		"id": "lainopia",
+		"description": "☀️ Chiringuito con buena música de todo tipo",
+		"category": "restaurant",
+		"jam": false,
+		"pos": {
+			"lat": 36.711107557484375,
+			"lng": -4.2515960894769185
+		},
+		"links": [
+			{
+				"type": "Instagram",
+				"url": "https://www.instagram.com/la.inopia.chiringuito"
+			},
+			{
+				"type": "Facebook",
+				"url": "https://www.facebook.com/Lainopiachiringuito/"
+			}
+		]
+	}
+]

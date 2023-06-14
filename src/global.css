@@ -1,0 +1,75 @@
+body {
+	font: 400 1em 'coffee', Helvetica, Arial, sans-serif;
+	color: #170a0a;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #f1d4b0a4;
+	background-image: url('/rice-paper-2.png');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button {
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Zina;
+	src: url('/fonts/Zina-Regular.otf');
+}
+@font-face {
+	font-family: coffee;
+	src: url('/fonts/cmunbtl.ttf');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+	margin: 1em 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-family: coffee;
+}
+h1 {
+	font-size: 2em;
+	font-family: Zina;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-family: coffee;
+}
+
+p {
+	line-height: 1.7em;
+	font-family: coffee;
+	/* opacity: 0.9; */
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-underline-offset: 5px;
+	font-family: coffee;
+}
+
+a:hover {
+	color: rgb(255, 115, 115);
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}

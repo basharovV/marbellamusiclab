@@ -1,0 +1,27 @@
+{
+	"shows": [
+		{
+			"date": "16-10-2022",
+			"location": "Marbella Calling Festival",
+			"tickets": "Free"
+		},
+		{
+			"date": "03-12-2022",
+			"location": "Groove Bar, Fuengirola",
+			"tickets": "Free"
+		},
+		{
+			"date": "13-01-2023",
+			"location": "La Polivalente, Málaga",
+			"description": "acoustic trio - El Pato Yoan",
+			"tickets": "5€ (door)",
+			"link": "https://www.lapolivalente.com/evento/el-pato-yoan-3/"
+		},
+		{
+			"date": "28-01-2023",
+			"location": "Estudios Tarántula, Marbella",
+			"tickets": "5€",
+			"link": "https://www.instagram.com/p/CnsDyvStcq9"
+		}
+	]
+}
